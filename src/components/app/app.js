@@ -12,9 +12,9 @@ export default class App extends React.Component {
         super(props);
         this.state = {
             data: [
-                {label: "Going to learn React", important: true, like: false, important: false, id: 1},
-                {label: "Going to learn React", important: false, like: false, important: false, id: 2},
-                {label: "Going to learn React", important: false, like: false, important: false, id: 3}
+                {label: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", important: true, like: false, important: false, id: 1},
+                {label: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", important: false, like: false, important: false, id: 2},
+                {label: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", important: false, like: false, important: false, id: 3}
             ],
             term: '',
             filter: 'all'

@@ -32,7 +32,7 @@ export default class PostAddForm extends React.Component {
             onSubmit={this.onSubmit}> 
                 <input 
                 type="text"
-                placeholder="О чем вы думаете сейчас?"
+                placeholder="What are you thinking about now?"
                 className="form-control new-post-label"
                 onChange={this.onValueChange}
                 value={this.state.text}
@@ -40,7 +40,7 @@ export default class PostAddForm extends React.Component {
                 <button
                 type="submit"
                 className="btn btn-outline-secondary">
-                    Добавить
+                    Add
                 </button>
             </form>
         )

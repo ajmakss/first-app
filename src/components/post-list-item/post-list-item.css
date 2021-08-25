@@ -1,5 +1,6 @@
 .app-list-item {
   font-size: 1.25rem;
+  border-radius: 10px;
 }
 
 .app-list-item button {
@@ -51,4 +52,12 @@
 
 .app-list-item.important .btn-star {
     color: #aeaeae;
+}
+
+.app-list .list-group-item {
+  background: #fff;
+  border-radius: 10px;
+}
+.btn {
+  
 }
